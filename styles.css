@@ -1,0 +1,29 @@
+  
+  #resize-button 
+  {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .container {
+    display: grid;
+    width: 960px;
+    height: 960px;
+    margin: 20px auto;
+    border: 1px solid black;
+    box-sizing: border-box; 
+  }
+
+
+  .grid-square {
+    box-sizing: border-box; 
+    border: 1px solid #ddd; 
+    background-color: lightblue;
+    transition: background-color 0.2s ease;
+  }
+
+
